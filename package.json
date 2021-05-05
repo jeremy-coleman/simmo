@@ -1,0 +1,34 @@
+{
+  "name": "simmo",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently npm:start:*",
+    "start:client": "node ./serve.js",
+    "start:server": "sucrase-node src/server/index.mjs",
+    "pretty":"prettier src/**/*.{js,jsx,ts,tsx} --write"
+  },
+  "prettier":{
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "printWidth": 120,
+    "trailingComma": "none",
+    "quoteProps": "consistent",
+    "semi": false,
+    "singleQuote": true
+  },
+  "//dependencies": {
+    "@geckos.io/client": "2.0.0-dev.3",
+    "@geckos.io/server": "2.0.0-dev.3"
+  },
+  "devDependencies": {
+    "express":"4.17.1",
+    "prettier": "2.2.1",
+    "sucrase": "3.18.1",
+    "gl-matrix": "^3.3.0",
+    "socket.io": "^4.0.1",
+    "concurrently": "6.0.2",
+    "typescript": "4.2.4"
+  }
+}

@@ -10,8 +10,8 @@ import { spawners } from './spawners.js'
 import { terrain } from './terrain.js'
 import { threejs_component } from './threejs_component.js'
 import { ui_controller } from './ui-controller.js'
-import { defs } from '/shared/defs.mjs'
-import { spatial_hash_grid } from '/shared/spatial-hash-grid.mjs'
+import { defs } from '/shared/defs.js'
+import { spatial_hash_grid } from '/shared/spatial-hash-grid.js'
 
 class CrappyMMOAttempt {
   constructor() {

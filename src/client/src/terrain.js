@@ -6,9 +6,9 @@ import { terrain_shader } from './terrain-shader.js'
 import { texture_splatter } from './texture-splatter.js'
 import { textures } from './textures.js'
 import { utils } from './utils.js'
-import { noise } from '/shared/noise.mjs'
-import { terrain_constants } from '/shared/terrain-constants.mjs'
-import { terrain_height } from '/shared/terrain-height.mjs'
+import { noise } from '/shared/noise.js'
+import { terrain_constants } from '/shared/terrain-constants.js'
+import { terrain_height } from '/shared/terrain-height.js'
 
 export const terrain = (function () {
   class TerrainChunkManager extends entity.Component {

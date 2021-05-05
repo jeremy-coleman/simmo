@@ -1,5 +1,4 @@
-
-import express from 'express'
+var express = require("express")
 
 let server = express()
 

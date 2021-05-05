@@ -1,10 +1,7 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.124/build/three.module.js'
-
-import { entity } from './entity.js'
-
-import { defs } from '/shared/defs.mjs'
-
 import { FBXLoader } from 'https://cdn.jsdelivr.net/npm/three@0.124/examples/jsm/loaders/FBXLoader.js'
+import { entity } from './entity.js'
+import { defs } from '/shared/defs.mjs'
 
 export const equip_weapon_component = (() => {
   class EquipWeapon extends entity.Component {

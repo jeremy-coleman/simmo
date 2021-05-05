@@ -1,19 +1,17 @@
 import { GUI } from 'https://cdn.jsdelivr.net/npm/three@0.124/examples/jsm/libs/dat.gui.module.js'
-
 import { entity_manager } from './entity-manager.js'
 import { entity } from './entity.js'
-import { ui_controller } from './ui-controller.js'
+import { inventory_controller } from './inventory-controller.js'
 import { level_up_component } from './level-up-component.js'
+import { load_controller } from './load-controller.js'
 import { network_controller } from './network-controller.js'
 import { scenery_controller } from './scenery-controller.js'
-import { load_controller } from './load-controller.js'
 import { spawners } from './spawners.js'
 import { terrain } from './terrain.js'
-import { inventory_controller } from './inventory-controller.js'
-
-import { spatial_hash_grid } from '/shared/spatial-hash-grid.mjs'
-import { defs } from '/shared/defs.mjs'
 import { threejs_component } from './threejs_component.js'
+import { ui_controller } from './ui-controller.js'
+import { defs } from '/shared/defs.mjs'
+import { spatial_hash_grid } from '/shared/spatial-hash-grid.mjs'
 
 class CrappyMMOAttempt {
   constructor() {

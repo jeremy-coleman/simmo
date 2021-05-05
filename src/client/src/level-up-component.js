@@ -1,7 +1,6 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.124/build/three.module.js'
-
-import { particle_system } from './particle-system.js'
 import { entity } from './entity.js'
+import { particle_system } from './particle-system.js'
 
 export const level_up_component = (() => {
   class LevelUpComponentSpawner extends entity.Component {

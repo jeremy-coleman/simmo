@@ -1,7 +1,6 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.124/build/three.module.js'
-
-import { particle_system } from './particle-system.js'
 import { entity } from './entity.js'
+import { particle_system } from './particle-system.js'
 
 export const blood_effect = (() => {
   class BloodEffectEmitter extends particle_system.ParticleEmitter {

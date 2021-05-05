@@ -1,15 +1,13 @@
-
-
-export const terrain_constants = (function() {
-  const QT_MIN_CELL_SIZE = 100;
+export const terrain_constants = (function () {
+  const QT_MIN_CELL_SIZE = 100
   // const QT_MIN_CELL_RESOLUTION = 24;
-  const QT_MIN_CELL_RESOLUTION = 16;
+  const QT_MIN_CELL_RESOLUTION = 16
   // const QT_MIN_CELL_RESOLUTION = 4;
-  const PLANET_RADIUS = 8000.0;
+  const PLANET_RADIUS = 8000.0
 
-  const NOISE_HEIGHT = 800.0;
+  const NOISE_HEIGHT = 800.0
   // const NOISE_HEIGHT = 0.0;
-  const NOISE_SCALE = 1800.0;
+  const NOISE_SCALE = 1800.0
 
   return {
     QT_MIN_CELL_SIZE: QT_MIN_CELL_SIZE,
@@ -26,6 +24,6 @@ export const terrain_constants = (function() {
       height: NOISE_HEIGHT,
       scale: NOISE_SCALE,
       seed: 1
-    },
+    }
   }
-})();
+})()

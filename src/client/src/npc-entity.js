@@ -1,8 +1,6 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.124/build/three.module.js'
-
 import { entity } from './entity.js'
 import { player_entity } from './player-entity.js'
-
 import { defs } from '/shared/defs.mjs'
 
 export const npc_entity = (() => {

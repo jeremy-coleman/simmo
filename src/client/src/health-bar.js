@@ -1,7 +1,5 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.124/build/three.module.js'
-
 import { entity } from './entity.js'
-
 import { math } from '/shared/math.mjs'
 
 export const health_bar = (() => {

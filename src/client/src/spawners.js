@@ -1,21 +1,18 @@
-import { entity } from './entity.js'
-
-import { third_person_camera } from './third-person-camera.js'
-import { player_entity } from './player-entity.js'
-import { health_component } from './health-component.js'
-import { player_input } from './player-input.js'
-import { spatial_grid_controller } from './spatial-grid-controller.js'
-import { inventory_controller } from './inventory-controller.js'
-import { equip_weapon_component } from './equip-weapon-component.js'
 import { attack_controller } from './attacker-controller.js'
-
-import { npc_entity } from './npc-entity.js'
-import { health_bar } from './health-bar.js'
+import { blood_effect } from './blood-effect.js'
+import { entity } from './entity.js'
+import { equip_weapon_component } from './equip-weapon-component.js'
+import { floating_name } from './floating-name.js'
+import { health_component } from './health-component.js'
+import { inventory_controller } from './inventory-controller.js'
 import { network_entity_controller } from './network-entity-controller.js'
 import { network_player_controller } from './network-player-controller.js'
-import { floating_name } from './floating-name.js'
+import { npc_entity } from './npc-entity.js'
+import { player_entity } from './player-entity.js'
+import { player_input } from './player-input.js'
 import { sorceror_effect } from './sorceror-effect.js'
-import { blood_effect } from './blood-effect.js'
+import { spatial_grid_controller } from './spatial-grid-controller.js'
+import { third_person_camera } from './third-person-camera.js'
 
 export const spawners = (() => {
   class PlayerSpawner extends entity.Component {

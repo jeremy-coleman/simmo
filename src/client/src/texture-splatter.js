@@ -1,5 +1,4 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.124/build/three.module.js'
-
 import { math } from '/shared/math.mjs'
 import { spline } from '/shared/spline.mjs'
 import { terrain_constants } from '/shared/terrain-constants.mjs'

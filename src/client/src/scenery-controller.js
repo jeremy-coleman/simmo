@@ -1,9 +1,7 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.124/build/three.module.js'
-
 import { entity } from './entity.js'
 import { render_component } from './render-component.js'
 import { spatial_grid_controller } from './spatial-grid-controller.js'
-
 import { math } from '/shared/math.mjs'
 import { noise } from '/shared/noise.mjs'
 

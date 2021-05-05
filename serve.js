@@ -1,10 +1,10 @@
-var express = require('express')
+
+import express from 'express'
 
 let server = express()
 
 //https://web.dev/coop-coep/
 //https://expressjs.com/en/api.html
-
 server.use(
   express.static('src/client', {
     setHeaders: function (res, path, stat) {
@@ -13,7 +13,6 @@ server.use(
     }
   })
 )
-
 
 server.listen(5000)
 console.log('serving content on http://localhost:5000')

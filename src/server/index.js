@@ -2,7 +2,10 @@ require("sucrase/register")
 import http from "http";
 import * as socket_io from "socket.io";
 import { world_server } from "./world-server";
-import './msg'
+
+
+//var msg: string = "🧙 sheep the priest🐑"
+//console.log(msg)
 
 function Main() {
   const port = process.env.PORT || 3000;

@@ -1,3 +1,5 @@
+require("sucrase/register")
+require("./src/server/index.js")
 var express = require("express")
 
 let server = express()
